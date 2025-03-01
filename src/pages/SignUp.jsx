@@ -22,8 +22,7 @@ export default function SignUp() {
         headers: {
           'Content-Type': 'application/json',
 
-
-
+          
         },
         body: JSON.stringify(formData),
       });
@@ -67,8 +66,6 @@ export default function SignUp() {
           id='password'
           onChange={handleChange}
         />
-
-        
 
         <button
           disabled={loading}
