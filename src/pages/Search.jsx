@@ -12,10 +12,6 @@ export default function Search() {
     offer: false,
     sort: 'created_at',
     order: 'desc',
-
-
-
-    
   });
 
   const [loading, setLoading] = useState(false);
